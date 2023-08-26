@@ -1,10 +1,23 @@
 import React from "react";
+import { Switch, Route } from "react-router-dom";
+import HomePage from "./components/HomePage";
+import OrderForm from "./components/OrderForm";
+import Success from "./components/Success";
 
 const App = () => {
   return (
     <>
-      <h1>Teknolojik Yemekler</h1>
-      <p>Burdaki kodu silip kendi headerınızı ekleyebilirsiniz</p>
+      <Switch>
+        <Route exact path="/">
+          <HomePage />
+        </Route>
+        <Route path="pizza">
+          <OrderForm />
+        </Route>
+        <Route path="success">
+          <Success />
+        </Route>
+      </Switch>
     </>
   );
 };
