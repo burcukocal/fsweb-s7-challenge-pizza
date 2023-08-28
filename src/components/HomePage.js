@@ -2,6 +2,7 @@ import React from "react";
 import "./HomePage.css";
 import { Link } from "react-router-dom";
 import { Col, Row } from "reactstrap";
+import logo from "../Assets/logo.svg";
 import nav1 from "../Assets/adv-aseets/icons/1.svg";
 import nav2 from "../Assets/adv-aseets/icons/2.svg";
 import nav3 from "../Assets/adv-aseets/icons/3.svg";
