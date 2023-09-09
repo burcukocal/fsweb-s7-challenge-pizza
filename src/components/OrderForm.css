@@ -1,0 +1,230 @@
+header, .order-info, .order-name{
+    background-color: #FAF7F2;
+}
+
+header a{
+    text-decoration: none;
+    color: #5F5F5F;
+    font-size: 1rem;  
+    width: 70vw; 
+    font-weight: normal;   
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 29px;
+}
+.order-tag, .order-info{
+    margin: auto;
+    padding-top: 4%;    
+    width: 40vw;
+}
+.order img{
+    display: flex;
+    align-items: flex-start;
+    margin: auto;  
+    width: 40vw;    
+}
+.order-info h3{
+    font-family: 'Barlow', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 29px;
+    color: #292929;
+    margin-bottom: 6%;
+}
+.point, .point div{
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    margin-bottom: 1%;
+}
+.point div{
+    gap: 100px;
+    color: #5F5F5F;
+}
+.point h2{
+    font-family: 'Barlow', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 37px;
+    color: #292929;
+}
+
+.order-info p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 29px;
+    color: #5F5F5F;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+}
+.order-dough{
+    margin: auto;
+    width: 40vw;
+}
+
+
+.size {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 2%;
+  }
+  
+
+  
+  .size-label {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 56px;
+    color: #5F5F5F;
+    border-radius: 50%;
+    background-color: #FAF7F2;
+    height: 62px;
+    width: 63px;
+    text-align: center;
+    margin-top: 10%;
+  }
+  
+  .size-radio{
+    clip-path: inset(50%);
+}
+.dropdown-dough{
+    margin-top: 10%;
+    height: 62px;
+}
+
+Form h3{
+    font-family: 'Barlow', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 25px;
+    color: #292929;
+}
+Form span{
+    color: #D80027;
+}
+Form p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 56px;
+    color: #5F5F5F;
+}
+
+.extra-label{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 25px;
+    color: #5F5F5F;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.extras{
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+}
+.extra{
+    display: flex;
+    align-items: center;
+    width: 33%;
+    padding-bottom: 5%;
+}
+.extras Input:checked{
+    background-color: #FDC913;
+}
+
+.form-final{
+    margin-top: 5%;
+}
+.form-final hr{
+    border: 1px solid #5F5F5F80;
+    background: #5F5F5F80;
+
+}
+.form-final input{
+    height: 65px;
+    background-color: #FAF7F2;
+}
+
+.order-total{
+    margin-bottom: 10%;
+}
+.order-counter{
+    display: flex;
+    align-items: center;
+    width: 180px;
+    height: 60px;
+    border-radius: 6px   
+}
+
+.order-counter button{
+    width: 60px;
+    height: 60px;
+    border-radius: 0px 6px 6px 0px;
+    background: #FAF7F2;
+    border: none;
+    text-align: center;
+    color: #000000;
+}
+.order-counter > div{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 0px 6px 6px 0px;
+    background: #FAF7F2;
+    border: none;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 19px;
+    color: #000000;
+    padding-top: 14%;
+}
+.finally{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.order-total-right{
+    border: none;
+    border-radius: 10px;
+    width: 25vw;
+    height: 25vh;
+    text-align: center;
+    padding-top: 5%;
+
+    background: #FAF7F2;
+}
+
+.order-total-right>h3{
+    text-align: left;
+    padding-left: 10%;
+}
+.order-total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.total{
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 10%;
+}
+.total p{
+    display: flex;
+    width: 50%;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #5F5F5F;
+    padding-top: 2%;
+}
+
+
+
+
