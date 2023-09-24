@@ -1,0 +1,94 @@
+.success-header {
+    background: #CE2829;
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.success-main {
+    padding-top: 2%;
+    height: 100%;
+    background-color: #CE2829;
+}
+
+.success-order {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.success-order p {
+    font-family: 'Satisfy', cursive;
+    color: #FDC913;
+    font-size: 1.6rem;
+}
+
+.success-order h2 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 4rem;
+    line-height: 1em;
+    color: #fff;
+}
+
+.success-container {
+    max-width: 50%;
+    padding: 3% 1% 1% 1%;
+    margin: auto;
+}
+
+.thanks-name{
+    text-align: center;
+    font-size: 1rem;
+    margin: auto;
+    width: 50%;
+}
+
+.summary {
+    color:white;
+    margin: auto;
+    border-top: 1px solid white;
+}
+
+.summary span {
+    font-weight: bold;
+}
+
+.itemized {
+    margin: auto;
+    padding: 10%;
+    max-width: 50%;
+}
+
+.itemized span {
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+
+.summary-card {
+    background-color: #CE2829!important;
+    border: 1px solid white!important;
+    padding: 7% 6%;
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+.total-table{
+    height: 20vh;
+}
+
+.checked-summary h6,.total-summary h6 {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+
+.thanks-name {
+    color: #fff
+}
+
+.thanks-name span {
+    text-transform: capitalize;
+}
