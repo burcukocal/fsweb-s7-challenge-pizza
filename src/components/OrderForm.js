@@ -14,7 +14,7 @@ const ProductPageForm = () => {
         count:"",
         dough: "",
         topping: [],
-        siparisNotu: "",
+        note: "",
         foodName: foodName[0].value,
         name: "",
         email: "",
